@@ -24,7 +24,10 @@
     cat ~/.ssh/id_rsa.pub
     ssh -T git@github.com
 
-## ssh file
+## ssh config file
+    cd ~/.ssh
+    touch config
+    
     # working account
         Host github.com
         HostName github.com
@@ -52,6 +55,9 @@
     wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
     nvm install 18.15.0
+    nvm alias default 16.14.2
+    
+## yarn  
     npm install -g yarn
     
 ## ts-node
