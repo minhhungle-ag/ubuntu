@@ -20,8 +20,10 @@
 
     eval "$(ssh-agent -s)"
     ssh-add ~/.ssh/id_rsa
-
+    ssh-add ~/.ssh/id_ed25519
+   
     cat ~/.ssh/id_rsa.pub
+    cat ~/.ssh/id_ed25519.pub
     ssh -T git@github.com
 
 ## ssh config file
