@@ -1,3 +1,7 @@
+## software manager
+    sudo apt install gdebi
+
+
 ## IBus-Bamboo
     sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
     sudo apt-get update
